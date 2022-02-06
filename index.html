@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+ 
+</head>
+<body background="wp8373125.jpg"> 
+<center>
+  	<h3 class="btn btn-info heading">×º°”˜`”°º×𝒜𝐼 𝒟𝒥 𝒲𝐸𝐵 𝒜𝒫𝒫×º°”˜`”°º×
+	    <br>
+	    <span class="note">𝓝𝓞𝓣𝓔 - 𝓖𝓮𝓽 𝔂𝓸𝓾𝓻 𝓵𝓮𝓯𝓽 𝓱𝓪𝓷𝓭 𝔀𝓻𝓲𝓼𝓽 𝓽𝓸 𝓹𝓵𝓪𝔂 1 𝓼𝓸𝓷𝓰.𝓖𝓮𝓽 𝔂𝓸𝓾𝓻 𝓻𝓲𝓰𝓱𝓽 𝓱𝓪𝓷𝓭 𝔀𝓻𝓲𝓼𝓽 𝓽𝓸 𝓹𝓵𝓪𝔂 2 𝓼𝓸𝓷𝓰.
+     <br>  <h4>Move your left-hand wrist up and down for increasing and decreasing the volume. 
+        Move your right-hand wrist up and down for increasing and decreasing the speed</h4>
+      </span>
+  	</h3>
+    <div class="div_speed">
+      <img src="dj disk.gif" class="disk_img">
+      <br>
+      <h3 class="btn btn-info speed_button" id="speed" onclick="increase()">SPEED</h3>
+      </div>
+  
+      <div class="div_volume">
+        <img src="dj disk.gif" class="disk_img">
+        <br>
+        <h3 class="btn btn-info volume_button" id="volume" onclick="increase1()">VOLUME</h3>
+        </div>
+     <br><br>
+ <span>
+  <button class="btn btn-info play_button" id="play" onclick="play()">Play</button> 
+ </span>
+ <span><button onclick="stop();" class="btn btn-success stop_button" id="stop">Stop</button></span>
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>
